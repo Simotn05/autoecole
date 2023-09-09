@@ -1,0 +1,56 @@
+
+body{ background-color:  white;}
+
+.background{
+   
+    background-image: url('./images/admin4.avif');
+    height: 60vh; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+h1{
+    display: grid;
+    place-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container{
+    /* padding-left:300px; */
+    /* padding-right: 300px; */
+    background-color:  white;
+    position: relative;
+}
+
+p{
+    font-size: 15px;
+    font-family:'Verdana';
+    margin :10px 0;
+}
+h1{
+    font-family:'Verdana';
+
+}
+h4{
+    color: orangered;
+    font-size: 18px;
+    font-family:'Verdana';
+}
+.test1{
+    padding: 20px;
+}
+
+.centre{
+    /* display: grid; */
+    /* place-items: center; */
+    position: absolute;
+    left: 15%;
+    right: 15%;
+}
+
+
+.doc{
+    display: grid; 
+    align-items: center;
+
+}

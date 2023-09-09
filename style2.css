@@ -1,0 +1,98 @@
+
+
+/* PARTIE INSCRIPTION */
+.form-container{
+    /* margin-:top:0px; */
+    position: relative;
+    min-height: 603px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    /* margin-bottom: -30px; */
+    /* background: rgba(255, 68, 0, 0.826); */
+     background-color: orangered; 
+    
+  }
+        .form-container form{ 
+    position: absolute;
+    /* margin-top:0px; */
+    top:10%;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.1); 
+    background: white;
+    text-align: center; 
+    width : 500px;
+    /* box-shadow: 10px 5px 5px black; */
+}
+        .form-container form h3{
+    font-size:27px ;
+    font-family:'Verdana';
+    text-transform: uppercase;
+     margin-bottom: 10px; 
+     color:#333;
+}
+        .form-container form input,.form-container form select{
+    width: 95%;
+    padding:10px 15px;
+    font-size: 17px;
+    margin:8px 0;
+    background:#eee;
+    border-radius: 5px;
+}
+        .form-container form select option {
+    background: white;
+}
+    .form-container form .form-btn{
+    Background: #eee;
+    color: orangered; 
+    text-transform: capitalize; 
+    font-size: 20px; 
+    cursor: pointer;
+    font-family: Verdana;
+    font-size: large;
+    /* font-weight: bold; */
+}
+
+.form-container form .form-btn:hover{ 
+    background: orangered; 
+    color: white;
+}
+    .form-container form p{
+        margin-top:10px;
+        font-size: 16px;
+        color:#333;
+}
+    .form-container form p a{
+        color: orangered;
+    }
+input[type=radio]{
+    
+    accent-color: orangered;
+}
+
+
+.form-container form .form-btn2{
+    width:60%;
+    Background: #eee;
+    color: orangered;  
+    font-size: 20px; 
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.form-container form .form-btn2:hover{ 
+    background: orangered; 
+    color: white;
+}
+.form-container form .error-message{
+    margin : 10px 0;
+    display : block;
+    background: orangered;
+    color: #eee;
+    border-radius : 5px;
+    font-size : 20px;
+
+
+}

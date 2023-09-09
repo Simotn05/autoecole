@@ -1,0 +1,109 @@
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    /* padding-left: 200px; */
+    padding-top: 50px;
+    line-height: normal;
+    margin-bottom: -5px;
+}
+td,th{
+    padding: 10px 20px;
+}
+table,tr,td,th{
+    margin:auto auto;
+    border: 1px ;
+    border-style: groove;
+    border-collapse: collapse;
+    border-color: black;
+    color: black;
+}
+/* thead>tr{
+    background-color:gray; 
+} / / methode 1*/
+tr:only-child{
+background-color:rgb(255, 85, 0);
+} /* methode 2*/
+tr:nth-child(2n){
+     background-color: #eee;
+    } 
+tr:nth-child(2n+1):not(thead>tr){
+    background-color: #eee;
+} /* methode 1*/
+tbody tr:nth-child(2n+1){
+    background-color: #eee;
+} /* methode 2*/
+tr:hover:not(tr:only-child){
+    background-color: white;
+}
+
+.supprimer{
+    margin-top: 100px;
+}
+
+.btn-1{
+    
+    Background: #eee;
+    color: orangered; 
+    text-transform: capitalize; 
+    font-size: 20px; 
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background: orangered; 
+    color: white;
+}
+
+.supprimer form input{
+    text-align: center;
+    padding:10px 15px;
+    font-size: 17px;
+    margin:8px 0;
+    background:#eee;
+    border-radius: 5px;
+}
+
+#deco{
+float : right;
+
+}
+.btn-2{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: orangered;
+    color: #eee;
+    margin:0 5px;
+    border-radius: 5px;
+    border-color: black;
+}
+.supprimer h3{
+    font-size: 30px;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+.container{
+    
+    background-image: url('./images/admin6.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+ #centre{
+    display: grid;
+     /* Center the div both horizontally and vertically  */
+    place-items: center;
+    height: 80vh;
+    font-size: 30px;
+} 
+
